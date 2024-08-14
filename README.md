@@ -1,2 +1,9 @@
 # Simulating Age Differences in Escalation Bias via Multi-level Adaptive Learning
-This repository provides the code for our open-source car sharing simulator. The simulator is agent-based and only requires a population and their activity patterns as input. We have trained a mode choice model on tracking data from Switzerland, and this model is applied on the activity to generate car sharing data. The steps to simulate car sharing reservation data are described in detail in the following.
+This repository provides the code for our open-source of simulating escalation bias under multi-level adaptive learning. It is an R function with the following parameter inputs:
+
+sim (alpha = .05, Learn = 1000, Phase1, Phase2, Phase3, Phase4, Hit.Prob, 
+                 EOC.Strategy.Prob = .5, 
+                 LOE.Strategy.Prob = .5,
+                 contrast = c(-1.5, -0.5, 0.5, 1))
+
+
