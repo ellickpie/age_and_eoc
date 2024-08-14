@@ -18,7 +18,7 @@ Quota4   &nbsp;&nbsp;&nbsp;&nbsp; The quota in Phase 4.\
 Hit.Prob &nbsp;&nbsp;&nbsp;&nbsp; The Probability of getting positive feedback.\
 EOC.Strategy.Prob &nbsp;&nbsp;&nbsp;&nbsp; The Probability of choosing escalation strategy. The default is .5.\
 LOE.Strategy.Prob &nbsp;&nbsp;&nbsp;&nbsp; The Probability of choosing law-of-effect strategy. The default is .5.\
-contrast &nbsp;&nbsp;&nbsp;&nbsp; contrast for testing the linearity of the change in escalation. The default is .5.
+contrast &nbsp;&nbsp;&nbsp;&nbsp; contrast for testing the linearity of the change in escalation. The default is c(-1.5, -0.5, 0.5, 1.5).
 
 ## Examples
 ### Simulation 1 of the paper
