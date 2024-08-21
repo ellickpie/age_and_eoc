@@ -35,7 +35,7 @@ sim(
   )
 
 ## Outpts
-sim() retruns a dataframe with simulated learners' choosing probability in all phases
+sim() retruns a dataframe with simulated learners' choosing probability in all phases.\
 sim.corr () returns only the correlation between the probability of choosing escalation strategy and contrast representing learning phases
 
 
