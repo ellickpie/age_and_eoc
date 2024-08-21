@@ -8,6 +8,10 @@ sim (alpha = .05, Learn = 1000, Quota1, Quota2, Quota3, Quota4, Hit.Prob,
                  LOE.Strategy.Prob = .5,
                  contrast = c(-1.5, -0.5, 0.5, 1))
 
+sim.corr (alpha = .05, Learn = 1000, Quota1, Quota2, Quota3, Quota4, Hit.Prob, 
+                 EOC.Strategy.Prob = .5, 
+                 LOE.Strategy.Prob = .5,
+                 contrast = c(-1.5, -0.5, 0.5, 1))
 ## Argument
 alpha &nbsp;&nbsp;&nbsp;&nbsp;    The learning parameter. The default is .05. \
 Learn  &nbsp;&nbsp;&nbsp;&nbsp;   Total number of learning trials.\
@@ -30,5 +34,8 @@ sim(
   contrast = c(1.5, 0.5, -0.5, -1.5)
   )
 
+## Outpts
+sim() retruns a dataframe with simulated learners' choosing probability in all phases
+sim.corr () returns only the correlation between the probability of choosing escalation strategy and contrast representing learning phases
 
 
